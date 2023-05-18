@@ -1,5 +1,5 @@
 import requests, os, string, random, asyncio, json, time, jwt, nest_asyncio
-from pythom_ghost_cursor import path
+from python_ghost_cursor import path
 from pyppeteer import launch
 from PIL import Image, ImageOps
 import numpy as np
