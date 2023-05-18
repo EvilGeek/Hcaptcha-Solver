@@ -137,4 +137,4 @@ if __name__ == "__main__":
     s = requests.session()
     # s.proxies.update({"http": "proxy", 'https': "proxy"}) # Proxies are recommended for bulk collection due to restrictions on requests
 
-    print(HcaptchaSolver(s).solve('site key', 'host'))  # Ex.'4c672d35-0701-42b2-88c3-78380b0db560', 'discord.com'
+    print(HcaptchaSolver(s).solve('a5f74b19-9e45-40e0-b45d-47ff91b7a6c2', 'accounts.hcaptcha.com'))  # Ex.'4c672d35-0701-42b2-88c3-78380b0db560', 'discord.com'
